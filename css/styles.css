@@ -1,9 +1,10 @@
-body {
+.common {
   display: block;
   margin: 0px;
   background-color: #ffffff;
-  }
+}
 .container {
+  display: block;
   margin: 0 auto;
   padding: 0;
   box-sizing: border-box;
@@ -12,61 +13,38 @@ body {
 .main-nav-menu {
   display: block;
   margin: 0px;
-  padding: 76px 0px 100px 0px;
-  box-sizing: border-box;
-  }
-nav {
-  display: block;
-  margin: 0px;
-  padding: 5px 0px 25px 0px;
-  }
+  padding: 78px 0px 104px 0px;
+}
 .nav-list {
   text-align: center;
   vertical-align: middle;
- }
-ul {
-  display: block;
+  list-style: none;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-  list-style: none;
 }
-.nav-list li {
+.nav-list-item {
   display: inline-block;
-  margin-right: 100px;
-  }
-ul li {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    display: inline-block;
+  margin-right: 106px;
 }
-.nav-list a {
-  color: #626262;
-  text-transform: uppercase;
-  font-family: "Playfair Display", serif;
-  font-size: 14px;
-  font-weight: 400;
-  }
-a {
-  display: block;
-  text-decoration: none;
+.nav-list-link {
+ color: #626262;
+ text-transform: uppercase;
+ font-family: "Playfair Display", serif;
+ font-size: 14px;
+ font-weight: 400;
+ text-decoration: none;
 }
-a:hover {
+.nav-list-link:hover {
   color: #03a9f4;
   font-weight:200;
-  }
+}
 .page-content {
   display: block;
   margin: 0;
-  padding: 20px 0 40px 0;
-  }
-.page-content-list {
-  font-size: 0;
-  padding-bottom: 20px;
+  padding: 0px 0 70px 0;
 }
-ul {
-  display: block;
+.page-content-list {
+  display: inline-table;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -76,22 +54,14 @@ ul {
   display: inline-block;
   width: 420px;
   margin-right: 60px;
-  margin-bottom: 130px;
-}
-ul li {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  display: inline-block;
+  margin-bottom: 136px;
 }
 .item-photo {
-  width: 100%;
-  height: 280px;
-  margin-bottom: 28px;
-}
-img{
   display: block;
   border-style: none;
+  width: 100%;
+  height: 280px;
+  margin-bottom: 32px;
 }
 .item-subtitle {
   color: #b4ad9e;
@@ -99,24 +69,14 @@ img{
   font-family: "Ubuntu", sans-serif;
   font-size: 14px;
   font-weight: 300;
-  margin-bottom: 26px;
-}
-h3, h2, p {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
+  margin-bottom: 34px;
 }
 .item-title {
   color: #626262;
   font-family: "Playfair Display", serif;
   font-size: 30px;
   font-weight: 400;
-  margin-bottom: 36px;
-}
-h3, h2, p {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
+  margin-bottom: 42px;
 }
 .item-description {
   font-family: "Playfair Display", serif;
@@ -124,11 +84,6 @@ h3, h2, p {
   line-height: 26px;
   font-weight: 400;
   color: #626262;
-}
-h3, h2, p {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
 }
 .page-content-list-item:nth-child(2n) {
   margin-right: 0;
