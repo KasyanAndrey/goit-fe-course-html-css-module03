@@ -2,6 +2,7 @@
   display: block;
   margin: 0px;
   background-color: #ffffff;
+  font-family: "Playfair Display", serif;
 }
 .container {
   display: block;
@@ -27,12 +28,11 @@
   margin-right: 106px;
 }
 .nav-list-link {
- color: #626262;
- text-transform: uppercase;
- font-family: "Playfair Display", serif;
- font-size: 14px;
- font-weight: 400;
- text-decoration: none;
+  color: #626262;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 400;
+  text-decoration: none;
 }
 .nav-list-link:hover {
   color: #03a9f4;
@@ -40,8 +40,9 @@
 }
 .page-content {
   display: block;
+  box-sizing: border-box;
   margin: 0;
-  padding: 0px 0 70px 0;
+  padding: 0;
 }
 .page-content-list {
   display: inline-table;
@@ -55,6 +56,12 @@
   width: 420px;
   margin-right: 60px;
   margin-bottom: 136px;
+}
+.page-content-list-item-bottom{
+  display: inline-block;
+  width: 420px;
+  margin-right: 60px;
+  margin-bottom: 58px;
 }
 .item-photo {
   display: block;
@@ -73,13 +80,11 @@
 }
 .item-title {
   color: #626262;
-  font-family: "Playfair Display", serif;
   font-size: 30px;
   font-weight: 400;
   margin-bottom: 42px;
 }
 .item-description {
-  font-family: "Playfair Display", serif;
   font-size: 14px;
   line-height: 26px;
   font-weight: 400;
@@ -88,11 +93,19 @@
 .page-content-list-item:nth-child(2n) {
   margin-right: 0;
 }
+.page-content-list-item-bottom:nth-child(2n) {
+    margin-right: 0; 
+}
+.button {
+ box-sizing: border-box;
+ margin-top: 0px;
+ margin-bottom: 70px;
+
+}
 .page-button {
   font-size: 20px;
   line-height: 24px;
   color: #626262;
-  font-family: "Playfair Display", serif;
   font-weight: 400;
   background-color: #ffffff;
   width: 164px;
